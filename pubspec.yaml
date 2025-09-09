@@ -36,8 +36,8 @@ dependencies:
   # For handling app lifecycle and background tasks
   flutter_background_service: ^5.0.5
   
-  # For permission handling (notifications, etc.)
-  permission_handler: ^11.2.0
+  # ✅ Downgraded for Dart 2.19.2 compatibility
+  permission_handler: ^10.2.0
   
   # For JSON serialization
   json_annotation: ^4.8.1
